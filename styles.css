@@ -1,0 +1,149 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --a: #fdd14e;
+    --b: #4e74fd;
+    --c: #fd624e;
+    --secundario: #45afea;
+    --gris: #757575;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+footer{
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer h1{
+    font-size: 1.8rem;
+}
+
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main{
+    padding: 30px;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media (min-width: 480px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion-principal a{
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.hero {
+    background-image: url(img/appbanco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.contenido-hero{
+    color: var(--blanco);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb( 0 0 0 / 70% );
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 30%);
+}
+
+.tarjeta {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner {
+    margin-top: 10px;
+    height: 30px;
+    position: relative;
+}
+
+.a {
+    background-color: var(--a);
+}
+
+.b {
+    background-color: var(--b);
+}
+
+.c {
+    background-color: var(--c);
+}

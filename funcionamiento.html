@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="funcionamiento.css">
-    <title>Nombre del banco</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Sistema Bancario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    
 </head>
+
+<link rel="icon" href="img/bank_78392.png">
+
 <body>
     
-    <!--Barra de navegacion de la pagina-->
-    <nav>
-        <img class="logo_banco" src="" alt="Logo del banco">
-        <ul>
-            <li>
-                <a href="">Funcionalidad del sistema bancario</a>
-                <a href="">Como funciona</a>
-                <a href="">Objetivos</a>
-            </li>
-        </ul>
-    </nav>
-    <!----------------------------------------->
+    <header>
+        <h1>¿Comó funciona?</h1>
+    </header>
 
-    <hr>
+    <!--Barra de navegacion de la pagina-->
+    <div class="nav-bg">
+        <nav class="navegacion-principal">
+            <a href="index.html">Inicio</a>
+            <a href="funcionamiento.html">Funcionamiento</a>
+            <a href="objetivos.html">Objetivos</a>
+        </nav>
+    </div>
+    <!----------------------------------------->
     
     <!--Contenido principal-->
-    <main>
+    <main class="main">
         
-        <h1>¿Comó funciona?</h1>
-
         <!------------------------------------------------->
         <h2>Creación de cuenta</h2>
         <p>
@@ -40,9 +42,10 @@
             También se puede observar el gran botón que dice “crear cuenta” el cual por su nombre este sirve para que cuando termines 
             de introducir los datos se presiona y usted tendrá una cuenta creada!. 
         </p>
-        <img src="imagenes como funciona/Creacion_de_cuenta.jpg" alt="Pantalla de registro de usuario">
+        <img src="img/Creacion_de_cuenta.jpg" alt="Pantalla de registro de usuario">
         <!------------------------------------------------->
         
+        <div class="banner c"></div>
         <h2>Menu principal</h2>
         <p>
             Las funciones de los botones son las siguientes: 
@@ -61,18 +64,20 @@
                 <b>Botón Transferencia:</b> Redirige a la ventana “Transferencia” donde se podrán realizar transferencias bancarias por medio de ciertos campos de seguridad. 
             </li>
         </ul>
-        <img src="imagenes como funciona/menuPrincipal.jpg" alt="Pagina principal del sistema bancario">
+        <img src="img/menuPrincipal.jpg" alt="Pagina principal del sistema bancario">
         <!------------------------------------------------->
 
+        <div class="banner a"></div>
         <h2>Perfil de usuario</h2>
         <p>En el perfil de usuario se puede visualizar la información básica del usuario donde se pueden modificar ciertos parámetros como la foto de perfil o la contraseña. </p>
         <p>También se pueden observar unos iconos de exclamación los cuales proporcionaran información extra al usuario al dar un clic sobre ellos.  </p>
-        <img src="imagenes como funciona/perfilDeUsuario.jpg" alt="Perfil de usuario del sistema bancario">
+        <img src="img/perfilDeUsuario.jpg" alt="Perfil de usuario del sistema bancario">
         <!--------------------------------------------------->
 
+        <div class="banner b"></div>
         <h2>Transacciones</h2>
         <p>Para realizar una transferencia, debe de llenar los siguientes campos:</p>
-        <img src="imagenes como funciona/Transacciones.jpg" alt="Pagina de transacciones del sistema bancario ">
+        <img src="img/Transacciones.jpg" alt="Pagina de transacciones del sistema bancario ">
         <ul>
             <li><b>N° de tarjeta de la cuenta a transferir:</b> Se debe de ingresar el ID del usuario al cual se enviará el dinero (usuario receptor). </li>
             <li><b>Cantidad a transferir:</b> El total de dinero que se transferirá del usuario principal al usuario receptor. </li>
@@ -82,6 +87,7 @@
         <p>Para salir de la página y regresar al menú principal, puede hacerlo al dar clic en el botón de la esquina superior izquierda, el que tiene una imagen de 3 barras. </p>
         <!------------------------------------------------------->
 
+        <div class="banner c"></div>
         <h2>Retiro de efectivo</h2>
         <p>En esta sección se realiza la solicitud para hacer un retiro de la cuenta. </p>
         <p>Se pueden visualizar los siguientes apartados: </p>
@@ -92,9 +98,10 @@
         </ul>
         <p><b>Botón de menú: </b></p>
         <p>Una vez que haya finalizado las operaciones en la pantalla de retiro de efectivo puede presionar el botón de menú para regresar al menú principal de la aplicación. </p>
-        <img src="imagenes como funciona/RetiroDeEfectivo.jpg" alt="Pagina de retiro de efectivo del sistema bancario">
+        <img src="img/RetiroDeEfectivo.jpg" alt="Pagina de retiro de efectivo del sistema bancario">
         <!-------------------------------------------------------->
 
+        <div class="banner a"></div>
         <h2>Historial de transacciones</h2>
         <p>En esta sección se puede visualizar todas las transacciones que se han realizado con la cuenta. </p>
         <p>Se pueden visualizar los siguientes datos:</p>
@@ -115,10 +122,19 @@
             <li><b>Hora/ Fecha:</b> Muestra la hora y fecha en que se hizo la operación.</li>
             <li><b>$$$$$$:</b> Indica la cantidad de dinero que se depositó en la cuenta. </li>
         </ul>
-        <img src="imagenes como funciona/HistorialDeTransacciones.jpg" alt="Página del historial de transacciones del sistema bancario">
+        <img src="img/HistorialDeTransacciones.jpg" alt="Página del historial de transacciones del sistema bancario">
     
+        <div class="banner b"></div>
     </main>
     <!------------------------------------------>
-
+    <footer>
+        <p>-----------------------------------------</p>
+        <h1>Equipo:</h1>
+        <p>Juan Antonio Herrera de la Rosa</p>
+        <p>Benjamín Carreon Cadenas</p>
+        <p>Jose de Jesus Moreno Rosas</p>
+        <p>Ian Isaak Rebollo Alcantara</p>
+        <p>-----------------------------------------</p>
+    </footer>
 </body>
 </html>
